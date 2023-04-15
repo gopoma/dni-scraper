@@ -5,6 +5,7 @@ import './index.css'
 import { OCRProvider } from './context/OCRProvider'
 
 const foo = 'bar'
+const bar = 'foo'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
