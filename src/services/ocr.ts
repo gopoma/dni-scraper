@@ -1,4 +1,5 @@
 import { config } from '../config'
+import { type DNIInformation } from '../interfaces'
 
 const OCR_URL = `${config.apiURL}/ocr`
 
@@ -10,8 +11,6 @@ interface ErrorResult {
   success: false
   message: string
 }
-
-type DNIInformation = Record<string, unknown>
 
 interface ScrapDNIResult extends SuccessResult {
   dniInformation: DNIInformation
