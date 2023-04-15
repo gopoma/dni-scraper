@@ -4,8 +4,6 @@ import App from './App'
 import './index.css'
 import { OCRProvider } from './context/OCRProvider'
 
-const foo = 'bar'
-
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <OCRProvider>
